@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet">
+  <title>DoggyLocks™</title>
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'> 
+</head>
+<body>
+  <ul class="tabs"><!--Setting the class for the undefined list-->
+    <li data-tab-target="#Home" class="active tab">Home</li><!--Setting the items in the ul as data-tab-targets, then we just switch which one is the active tab when the button is clicked in javascript-->
+    <li data-tab-target="#Page_1" class="tab">Our Products</li>
+    <li data-tab-target="#Page_2" class="tab">Star Product</li>
+      <div class="dropdown"><!--Creates a dropdown menu using "dropdown" as our class in css-->
+        <button class="dropbtn">Customer Support</button>
+        <div class="dropdown-content">
+          <a href="Login.html">Customer Login</a><!--Creating links to the other pages we have in the dropdown-->
+          <a href="/Email Project1/contact1.html">Newsletter Signup</a>
+        </div>
+      </div>
+  </ul>
+  <div class="container"><!--Setting a main container around the other divs-->
+  <div class="tab-content"><!--setting a div that will contain the tab content-->
+    <div id="Home" data-tab-content class="active">
+      <br>
+      <img src="Logo.png" width="auto" height="400">
+      <h1><u>DoggyLocks™</u></h1>
+      <p>Welcome to DoggyLocks the home for all your dog safety needs.</p>
+      <br>
+      <br>
+      <br>
+      
+    </div>
+  <div id="Page_1" data-tab-content>
+    <div class="ProductsBackground" style="background-image: url('B.Puppies/Golden2.jpg')"><!-- setting the background of this div container to a dog image-->
+      <br>
+      <h1><u>Our Products</u></h1>
+      <p1>Here at DoggyLocks™ we offer a range of products. We've got everything from Discrete Trackers for your dog to full DoggyLocks™ door locks so your furry companion is always free to come and go while you keep your peace of mind that your home is safe.</p1>
+      <h1>Trackers</h1>
+      <p1>We offer a range of discrete trackers that slip into your dogs collar. Currently in its beta testing...</p1>
+      <br>
+      <h1>Doors</h1>
+      <p1>Visit our star product page to learn about our DoggyLocks™ door</p1>
+    </div>
+  </div>
+    <div id="Page_2" data-tab-content>
+      <br>
+      <h1><ul>Our star product</ul></h1>
+      <p1>Our DoggyLocks doggy door is the safest way to keep your house safe and your dog happy. A simple sensor detects when your dog wants to go outside and opens the door. When your dog is safely back inside it locks it again to stop unwanted visitors.</p>
+      <p>As well as that on our website you can log in and monitor how often your dog has left the house and even whether your dog is inside or outside</p>
+      <br>
+      <p>Contact us at DoggyLocks@homtail.com to order yours today and a member of our team will contact you with a customised plan that works for you.</p>
+      <a style="text-decoration:none" href="How it works.docx" download><p style="color:#59EEF7" ;>How it works.docx</p></a><!--inserting a download link for a document-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-9yQb6CHMME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--inserting a youtube link-->
+      <br>
+      <br><br>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

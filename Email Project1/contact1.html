@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Newsletter SignUp</title>
+	<meta charset="utf-8">
+  <link href="EmailStyle.css" rel="stylesheet">
+	
+
+  </head>
+  <!--Setting the containers for the code-->
+  <div class="container">
+  <div class="TopContainer">
+  <body>
+    <a href="/index.html">Home</a> <!-- Home Button -->
+    
+    <header>
+      <h1>Newsletter Signup</h1>
+      <p>Join us, to stay up to data with all our latest advancements.</p>
+    </header>
+
+    <main>
+      <form>
+        <input id="email" type="text" maxlength="100" placeholder="Type your email address here..." ><!-- Placeholder for the email field -->
+        <button type="submit" id="submit-data">Join Us</button><!-- Submit Button -->
+        
+      </form>
+      <br>
+      <section>
+        <!-- Box for the saved emails -->
+        <textarea rows="30" cols="30" id="contacts"></textarea>
+      </section>
+      
+    </main>
+  </body>
+  </div>
+</div>
+</html>
+
+<!-- Tell JavaScript we will be using Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.4.0/firebase.js"></script>
+<script src="contact1.js"></script>
+
